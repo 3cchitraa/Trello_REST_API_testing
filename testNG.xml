@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="REST API Test Suite">
+    <test name="Trello API Test - GET the Board details">
+        <classes>
+            <class name="tests.GetBoardDetails"/>
+            <class name="tests.PUT_UpdateBoardName"/>
+            <class name="tests.POST_CreateUniqueList"/>
+            <class name="tests.DeleteLabel"/>
+            <class name="tests.GetBoardDetails_InvalidBoardID"/>
+        </classes>
+    </test>
+</suite>
